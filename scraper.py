@@ -29,7 +29,7 @@ def send_email():
     server.login('email', 'password')
 
     subject = 'Aardvark Price Drop'
-    body = 'Link for Aardvark: URL = https://www.amazon.com/gp/product/B00SXTB0AY/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1'
+    body = 'Link for Aardvark: URL = https://www.amazon.com/Secret-Aardvark-Habanero-Hot-Sauce/dp/B01FKM79JW'
     content = f"Subject: {subject}\n\n{body}"
     server.sendmail(
     'fromEmail',
