@@ -4,7 +4,7 @@ import smtplib
 import time
 
 
-URL = 'https://www.amazon.com/gp/product/B00SXTB0AY/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1'
+URL = 'https://www.amazon.com/Secret-Aardvark-Habanero-Hot-Sauce/dp/B01FKM79JW'
 headers = {"User-Agent": 'yourUserAgent'}
 
 def check_price():
