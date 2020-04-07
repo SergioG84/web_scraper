@@ -14,7 +14,7 @@ def check_price():
     price = soup.find(id="priceblock_ourprice").get_text()
     convertedPrice = float(price[1:6])
 
-    if (convertedPrice < 14.00):
+    if (convertedPrice > priceYouWant):
         send_email()
 
     print(title)
